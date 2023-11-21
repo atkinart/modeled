@@ -13,3 +13,4 @@ hs_err_pid*
 /target/
 /model-3d.iml
 .idea
+.DS_Store

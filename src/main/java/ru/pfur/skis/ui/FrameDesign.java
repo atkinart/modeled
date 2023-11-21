@@ -41,8 +41,6 @@ public class FrameDesign extends JFrame implements ModelSubscriber {
 
     FrameDesign(Model model) {
         this.model = model;
-        TestTextFrame t = new TestTextFrame();
-        model.subscribeAddElement(t);
         modelService = new ModelService(model);
         modelService.subscribe(this);
         setTitle("3D Design");
